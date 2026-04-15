@@ -1,1 +1,3 @@
-# The basemap for this project is A.T. Andreas' Map of Minnesota (1874)
+The Passenger Pigeon In Minnesota
+=====
+### by Jennings Mergenthal
