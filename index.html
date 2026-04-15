@@ -121,7 +121,7 @@
             var popupContent = '<table>\
                     <tr>\
                         <th scope="row">DisplayText</th>\
-                        <td class="visible-with-data" id="DisplayText">' + (feature.properties['DisplayText'] !== null ? autolinker.link(String(feature.properties['DisplayText']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                        (feature.properties['DisplayText'] !== null ? autolinker.link(String(feature.properties['DisplayText']).replace(/'/g, '\'').toLocaleString()) : '') + \
                     </tr>\
                 </table>';
             var content = removeEmptyRowsFromPopupContent(popupContent, feature);
