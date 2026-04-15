@@ -122,7 +122,7 @@
         function pop_PigeonSourcesforDisplay1_1(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
-                        <td class="visible-with-data" id="DisplayText">' + (feature.properties['DisplayText'] !== null ? autolinker.link(String(feature.properties['DisplayText']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+						 (feature.properties['DisplayText'] !== null ? autolinker.link(String(feature.properties['DisplayText']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             var content = removeEmptyRowsFromPopupContent(popupContent, feature);
